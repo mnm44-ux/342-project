@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register – Edison Pickleball Courts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-body">
+    <header class="navbar navbar-absolute">
+        <div class="nav-inner">
+            <div class="logo-mark">
+                <div class="logo-ball"></div>
+                <span class="logo-text">Edison Pickleball Courts</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#">Courts</a>
+                <a href="#">Reservations</a>
+                <a href="#">Leagues</a>
+                <a href="#">About</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+        </div>
+    </header>
+
+    <main class="login-wrapper">
+        <div class="login-card">
+            <h1>Create Your Account</h1>
+            <p class="login-subtitle">
+                Thank you for being part of the team! Enter your email, password, and details to create an account.
+            </p>
+
+            <form action="index.html" method="post" class="create-account-form">
+                <label for="email">Create Email</label>
+                <input id="email" type="email" placeholder="example: name@gmail.com">
+
+                <label for="password">Create Password</label>
+                <input id="password" type="password" placeholder="Enter your password">
+
+                <label for="phone">Mobile Number</label>
+                <input id="phone" type="text" placeholder="123-456-7890">
+
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" placeholder="Omar Woodruff">
+
+                <button type="submit" class="btn btn-solid full-width">Create Account</button>
+
+                <div class="create-account-link"></div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer footer-transparent">
+        <div class="footer-inner">
+            <p class="footer-brand">Edison Pickleball Courts</p>
+            <p class="footer-meta">
+                Mariz Masoud and Stephen Kymn project for IT 342 – Cloud Administration.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
