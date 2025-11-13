@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edison Pickleball Courts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-inner">
+            <div class="logo-mark">
+                <div class="logo-ball"></div>
+                <span class="logo-text">Edison Pickleball Courts</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="#">Courts</a>
+                <a href="#">Reservations</a>
+                <a href="#">Leagues</a>
+                <a href="#">About</a>
+                <a href="login.html" class="btn btn-ghost-sm">Log In</a>
+                <a href="register.html" class="btn btn-solid-sm">Join Now</a>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <div class="eyebrow">
+                    <span class="pill pill-location">Edison, NJ</span>
+                    <span class="pill pill-status">Pickleball • Outdoor Courts</span>
+                </div>
+
+                <h1>Book Your Next Match in Seconds.</h1>
+                <p class="hero-subtitle">
+                    Edison Pickleball Courts lets you see live availability, reserve time slots,
+                    and join open play sessions — no more waiting around or guessing if a court is free.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="login.html" class="btn btn-solid">Reserve a Court</a>
+                    <a href="#" class="btn btn-ghost">View Schedule</a>
+                </div>
+
+                <p class="hero-note">
+                    Simple, local, and built for players who just want to show up and play.
+                </p>
+            </div>
+
+            <div class="hero-panel">
+                <div class="hero-card">
+                    <div class="hero-card-header">
+                        <h2>Live Court Snapshot</h2>
+                        <span class="badge">Today</span>
+                    </div>
+                    <ul class="court-list">
+                        <li>
+                            <span>Court 1</span>
+                            <span class="tag tag-available">Available</span>
+                        </li>
+                        <li>
+                            <span>Court 2</span>
+                            <span class="tag tag-booked">Reserved • 6:00–7:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Court 3</span>
+                            <span class="tag tag-available">Available</span>
+                        </li>
+                        <li>
+                            <span>Court 4</span>
+                            <span class="tag tag-open-play">Open Play</span>
+                        </li>
+                    </ul>
+                    <p class="hero-card-footnote">
+                        Real-time data and authentication will be added in later milestones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Props -->
+    <section class="section section-muted">
+        <div class="section-inner">
+            <h2 class="section-title">Built for Players, Captains & Casual Drop-Ins</h2>
+            <p class="section-subtitle">
+                Whether you’re organizing a league, playing with friends, or just stopping by,
+                Edison Pickleball Courts keeps everything organized.
+            </p>
+
+            <div class="grid grid-3">
+                <article class="card">
+                    <h3>Smart Reservations</h3>
+                    <p>
+                        Lock in a court ahead of time, see who’s playing, and avoid crowded peak hours.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Open Play Sessions</h3>
+                    <p>
+                        Join or host open play blocks so new and experienced players can mix in.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Local & Community Focused</h3>
+                    <p>
+                        Designed specifically for Edison courts, players, and community events.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Split Section -->
+    <section class="section">
+        <div class="section-inner split">
+            <div class="split-text">
+                <h2>Everything in One Place.</h2>
+                <p>
+                    No more scattered group chats, random spreadsheets, or “who’s got the court?” confusion.
+                    Manage reservations, see who’s checked in, and keep track of upcoming matches
+                    from a single, clean interface.
+                </p>
+                <ul class="checklist">
+                    <li>View daily & weekly court availability</li>
+                    <li>Create private or public reservations</li>
+                    <li>Tag skill levels and preferred playing times</li>
+                    <li>Receive reminders before your sessions</li>
+                </ul>
+            </div>
+            <div class="split-card">
+                <h3>Upcoming Sessions (Preview)</h3>
+                <div class="session-row">
+                    <div>
+                        <strong>After-Work Doubles</strong>
+                        <span class="meta">Courts 1 &amp; 2 • 6:00 PM</span>
+                    </div>
+                    <span class="tag tag-open-play">Open Play</span>
+                </div>
+                <div class="session-row">
+                    <div>
+                        <strong>Beginner Friendly</strong>
+                        <span class="meta">Court 3 • 4:30 PM</span>
+                    </div>
+                    <span class="tag tag-available">Spots Open</span>
+                </div>
+                <div class="session-row">
+                    <div>
+                        <strong>Morning Ladder</strong>
+                        <span class="meta">Courts 1–4 • 9:00 AM</span>
+                    </div>
+                    <span class="tag tag-booked">Full</span>
+                </div>
+                <p class="split-footnote">
+                    These tiles are static for now — they’ll be powered by your AWS backend later.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="section-inner cta-inner">
+            <div>
+                <h2>Ready to Modernize Edison Pickleball?</h2>
+                <p>
+                    This site will evolve into a fully cloud-powered platform with authentication,
+                    database integration, and real-time updates — starting with this front-end.
+                </p>
+            </div>
+            <div class="cta-actions">
+                <a href="login.html" class="btn btn-solid">Log In</a>
+                <a href="#" class="btn btn-ghost">Preview Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <p class="footer-brand">Edison Pickleball Courts</p>
+                <p class="footer-note">
+                    Mariz Masoud and Stephen Kymn project for IT 342 – Cloud Administration.
+                </p>
+            </div>
+            <div class="footer-right">
+                <p class="footer-meta">Edison, New Jersey</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav-links');
+
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
